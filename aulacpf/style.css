@@ -1,0 +1,74 @@
+@charset "UTF-8";
+*{
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body{
+    background-image: linear-gradient(180deg, rgb(158, 90, 247), rgb(165, 46, 165), rgb(68, 68, 248));
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+    margin: 0px;
+}
+.fundo{
+    background-color: rgb(255, 255, 255);
+    width: 350px;
+    height: 350px;
+    border-radius: 4%;
+    box-shadow:3px 2px 2px rgba(148, 33, 255, 0.795);
+}
+.email{
+    height: 10px;
+    font-size: 1em;
+    top: 10px;
+    left: 19%;
+    position: relative;
+}
+#email{
+    height: 20px;
+    top: 0px;
+    left: 1px;
+    position: relative;
+    width: 200px;
+
+}
+.nome{
+    font-size: 1em;
+    left: 19%;
+    top: 60px;
+    height: 10px;
+    position: relative;
+}
+#usuario{
+    height: 20px;
+    width: 200px;
+}
+.senha{
+    height: 30px;
+    font-size: 1em;
+    left: 19%;
+    top: 110px;
+    height: 10px;
+    position: relative;
+}
+#password{
+    height: 20px;
+    width: 200px;
+}
+.senha2{
+    height: 30px;
+    font-size: 1em;
+    left: 19%;
+    top: 160px;
+    height: 10px;
+    position: relative;
+}
+#password2{
+    height: 20px;
+    width: 200px;
+}
